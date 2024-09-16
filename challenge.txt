@@ -1,0 +1,21 @@
+// Función regular que recibe un número y verifica si es par o impar
+function checkNumberRegular(num) {
+  if (num % 2 === 0) {
+    console.log('El número ' + num + ' es par');
+  } else {
+    console.log('El número ' + num + ' es impar');
+  }
+}
+
+// Función flecha que hace lo mismo
+const checkNumberArrow = (num) => {
+  if (num % 2 === 0) {
+    console.log(`El número ${num} es par`);
+  } else {
+    console.log(`El número ${num} es impar`);
+  }
+};
+
+// Ejemplos de prueba
+checkNumberRegular(5); // El número 5 es impar
+checkNumberArrow(8);   // El número 8 es par
